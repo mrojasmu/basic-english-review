@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Verb "to be" and Present Continuous</title><link rel="stylesheet" href="assets/style.css"></head><body><header><h1>Verb "to be" and Present Continuous</h1><p>Tema 6 - Inglés básico</p></header><main><div class="nav"><a href="index.html">← Inicio</a></div><section class="card"><span class="pill">Audio</span><h2>Cómo usar esta app</h2><p>Toca 🔊 para escuchar. En celular, primero toca “Activar audio”.</p><button class="big-audio" onclick="activateAudio()">🔊 Activar audio</button></section>
+<section class="card"><span class="pill">Materia</span><h2>Verb "to be" and Present Continuous</h2><div class="grid"><div class="box" data-speak="I am"><div class="box-content"><strong>I am</strong><div class="translation">yo soy / estoy</div></div></div>
+<div class="box" data-speak="You are"><div class="box-content"><strong>You are</strong><div class="translation">tú eres / estás</div></div></div>
+<div class="box" data-speak="He is"><div class="box-content"><strong>He is</strong><div class="translation">él es / está</div></div></div>
+<div class="box" data-speak="She is"><div class="box-content"><strong>She is</strong><div class="translation">ella es / está</div></div></div>
+<div class="box" data-speak="It is"><div class="box-content"><strong>It is</strong><div class="translation">eso es / está</div></div></div>
+<div class="box" data-speak="We are"><div class="box-content"><strong>We are</strong><div class="translation">nosotros somos / estamos</div></div></div>
+<div class="box" data-speak="They are"><div class="box-content"><strong>They are</strong><div class="translation">ellos son / están</div></div></div>
+<div class="box" data-speak="I am studying."><div class="box-content"><strong>I am studying.</strong><div class="translation">Estoy estudiando.</div></div></div>
+<div class="box" data-speak="She is working."><div class="box-content"><strong>She is working.</strong><div class="translation">Ella está trabajando.</div></div></div>
+<div class="box" data-speak="They are listening."><div class="box-content"><strong>They are listening.</strong><div class="translation">Ellos están escuchando.</div></div></div>
+<div class="box" data-speak="Are you reading?"><div class="box-content"><strong>Are you reading?</strong><div class="translation">¿Estás leyendo?</div></div></div></div></section>
+<section class="card"><span class="pill">Ejemplos</span><h2>Oraciones frecuentes</h2><div class="example" data-speak="I am a student."><strong>I am a student.</strong></div>
+<div class="example" data-speak="She is happy."><strong>She is happy.</strong></div>
+<div class="example" data-speak="They are in class."><strong>They are in class.</strong></div>
+<div class="example" data-speak="I am studying English."><strong>I am studying English.</strong></div>
+<div class="example" data-speak="She is reading a book."><strong>She is reading a book.</strong></div>
+<div class="example" data-speak="They are speaking English."><strong>They are speaking English.</strong></div></section>
+<section class="card"><span class="pill">Ejercicios</span><h2>Practica antes del quiz</h2><details><summary>I ___ a student</summary><p data-speak="I am a student."><strong>Respuesta:</strong> I am a student.</p></details>
+<details><summary>She ___ happy</summary><p data-speak="She is happy."><strong>Respuesta:</strong> She is happy.</p></details>
+<details><summary>They ___ listening</summary><p data-speak="They are listening."><strong>Respuesta:</strong> They are listening.</p></details>
+<details><summary>Negativo de I am tired</summary><p data-speak="I am not tired."><strong>Respuesta:</strong> I am not tired.</p></details>
+<details><summary>Pregunta con you ready</summary><p data-speak="Are you ready?"><strong>Respuesta:</strong> Are you ready?</p></details><p class="small">Toca cada ejercicio para ver y escuchar la respuesta.</p></section>
+<section class="card"><span class="pill">Quiz</span><h2>Quiz de 5 preguntas</h2><form>
+<div class="quiz-question"><h3>1. I ___ a student.</h3>
+<label data-speak="am"><input name="q1" type="radio" value="a"> am</label>
+<label data-speak="is"><input name="q1" type="radio" value="b"> is</label>
+<label data-speak="are"><input name="q1" type="radio" value="c"> are</label>
+</div>
+<div class="quiz-question"><h3>2. She ___ happy.</h3>
+<label data-speak="am"><input name="q2" type="radio" value="a"> am</label>
+<label data-speak="is"><input name="q2" type="radio" value="b"> is</label>
+<label data-speak="are"><input name="q2" type="radio" value="c"> are</label>
+</div>
+<div class="quiz-question"><h3>3. They ___ listening.</h3>
+<label data-speak="am"><input name="q3" type="radio" value="a"> am</label>
+<label data-speak="is"><input name="q3" type="radio" value="b"> is</label>
+<label data-speak="are"><input name="q3" type="radio" value="c"> are</label>
+</div>
+<div class="quiz-question"><h3>4. Negativo correcto:</h3>
+<label data-speak="I am not tired."><input name="q4" type="radio" value="a"> I am not tired.</label>
+<label data-speak="I not am tired."><input name="q4" type="radio" value="b"> I not am tired.</label>
+<label data-speak="I are not tired."><input name="q4" type="radio" value="c"> I are not tired.</label>
+</div>
+<div class="quiz-question"><h3>5. Pregunta correcta:</h3>
+<label data-speak="You are ready?"><input name="q5" type="radio" value="a"> You are ready?</label>
+<label data-speak="Are you ready?"><input name="q5" type="radio" value="b"> Are you ready?</label>
+<label data-speak="Is you ready?"><input name="q5" type="radio" value="c"> Is you ready?</label>
+</div>
+<button class="primary" type="button" onclick="checkQuiz(ANSWERS)">Revisar respuestas</button><div id="result" class="result"></div></form></section>
+</main><footer>Repaso móvil - Inglés básico</footer><script src="assets/app.js"></script><script>const ANSWERS={"q1": "a", "q2": "b", "q3": "c", "q4": "a", "q5": "b"};</script></body></html>

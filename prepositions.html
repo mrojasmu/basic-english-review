@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Prepositions</title><link rel="stylesheet" href="assets/style.css"></head><body><header><h1>Prepositions</h1><p>Tema 8 - Inglés básico</p></header><main><div class="nav"><a href="index.html">← Inicio</a></div><section class="card"><span class="pill">Audio</span><h2>Cómo usar esta app</h2><p>Toca 🔊 para escuchar. En celular, primero toca “Activar audio”.</p><button class="big-audio" onclick="activateAudio()">🔊 Activar audio</button></section>
+<section class="card"><span class="pill">Materia</span><h2>Prepositions</h2><div class="grid"><div class="box" data-speak="in"><div class="box-content"><strong>in</strong><div class="translation">en / dentro de</div></div></div>
+<div class="box" data-speak="on"><div class="box-content"><strong>on</strong><div class="translation">sobre</div></div></div>
+<div class="box" data-speak="under"><div class="box-content"><strong>under</strong><div class="translation">debajo de</div></div></div>
+<div class="box" data-speak="next to"><div class="box-content"><strong>next to</strong><div class="translation">al lado de</div></div></div>
+<div class="box" data-speak="between"><div class="box-content"><strong>between</strong><div class="translation">entre dos cosas</div></div></div>
+<div class="box" data-speak="behind"><div class="box-content"><strong>behind</strong><div class="translation">detrás de</div></div></div>
+<div class="box" data-speak="in front of"><div class="box-content"><strong>in front of</strong><div class="translation">delante de</div></div></div>
+<div class="box" data-speak="near"><div class="box-content"><strong>near</strong><div class="translation">cerca de</div></div></div>
+<div class="box" data-speak="at"><div class="box-content"><strong>at</strong><div class="translation">en un punto/lugar</div></div></div></div></section>
+<section class="card"><span class="pill">Ejemplos</span><h2>Oraciones frecuentes</h2><div class="example" data-speak="The book is on the table."><strong>The book is on the table.</strong></div>
+<div class="example" data-speak="The bag is under the chair."><strong>The bag is under the chair.</strong></div>
+<div class="example" data-speak="The school is near my house."><strong>The school is near my house.</strong></div>
+<div class="example" data-speak="I am at home."><strong>I am at home.</strong></div>
+<div class="example" data-speak="The pencil is in the box."><strong>The pencil is in the box.</strong></div></section>
+<section class="card"><span class="pill">Ejercicios</span><h2>Practica antes del quiz</h2><details><summary>sobre</summary><p data-speak="on"><strong>Respuesta:</strong> on</p></details>
+<details><summary>debajo de</summary><p data-speak="under"><strong>Respuesta:</strong> under</p></details>
+<details><summary>al lado de</summary><p data-speak="next to"><strong>Respuesta:</strong> next to</p></details>
+<details><summary>The book is ___ the table</summary><p data-speak="The book is on the table."><strong>Respuesta:</strong> The book is on the table.</p></details>
+<details><summary>I am ___ home</summary><p data-speak="I am at home."><strong>Respuesta:</strong> I am at home.</p></details><p class="small">Toca cada ejercicio para ver y escuchar la respuesta.</p></section>
+<section class="card"><span class="pill">Quiz</span><h2>Quiz de 5 preguntas</h2><form>
+<div class="quiz-question"><h3>1. “Sobre” en inglés:</h3>
+<label data-speak="on"><input name="q1" type="radio" value="a"> on</label>
+<label data-speak="under"><input name="q1" type="radio" value="b"> under</label>
+<label data-speak="between"><input name="q1" type="radio" value="c"> between</label>
+</div>
+<div class="quiz-question"><h3>2. “Debajo de”:</h3>
+<label data-speak="in"><input name="q2" type="radio" value="a"> in</label>
+<label data-speak="under"><input name="q2" type="radio" value="b"> under</label>
+<label data-speak="near"><input name="q2" type="radio" value="c"> near</label>
+</div>
+<div class="quiz-question"><h3>3. “Al lado de”:</h3>
+<label data-speak="behind"><input name="q3" type="radio" value="a"> behind</label>
+<label data-speak="between"><input name="q3" type="radio" value="b"> between</label>
+<label data-speak="next to"><input name="q3" type="radio" value="c"> next to</label>
+</div>
+<div class="quiz-question"><h3>4. The book is ___ the table.</h3>
+<label data-speak="on"><input name="q4" type="radio" value="a"> on</label>
+<label data-speak="at"><input name="q4" type="radio" value="b"> at</label>
+<label data-speak="of"><input name="q4" type="radio" value="c"> of</label>
+</div>
+<div class="quiz-question"><h3>5. I am ___ home.</h3>
+<label data-speak="on"><input name="q5" type="radio" value="a"> on</label>
+<label data-speak="at"><input name="q5" type="radio" value="b"> at</label>
+<label data-speak="under"><input name="q5" type="radio" value="c"> under</label>
+</div>
+<button class="primary" type="button" onclick="checkQuiz(ANSWERS)">Revisar respuestas</button><div id="result" class="result"></div></form></section>
+</main><footer>Repaso móvil - Inglés básico</footer><script src="assets/app.js"></script><script>const ANSWERS={"q1": "a", "q2": "b", "q3": "c", "q4": "a", "q5": "b"};</script></body></html>

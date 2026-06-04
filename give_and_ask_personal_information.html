@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Give and Ask Personal Information</title><link rel="stylesheet" href="assets/style.css"></head><body><header><h1>Give and Ask Personal Information</h1><p>Tema 2 - Inglés básico</p></header><main><div class="nav"><a href="index.html">← Inicio</a></div><section class="card"><span class="pill">Audio</span><h2>Cómo usar esta app</h2><p>Toca 🔊 para escuchar. En celular, primero toca “Activar audio”.</p><button class="big-audio" onclick="activateAudio()">🔊 Activar audio</button></section>
+<section class="card"><span class="pill">Materia</span><h2>Give and Ask Personal Information</h2><div class="grid"><div class="box" data-speak="What is your name?"><div class="box-content"><strong>What is your name?</strong><div class="translation">¿Cuál es tu nombre?</div></div></div>
+<div class="box" data-speak="What is your last name?"><div class="box-content"><strong>What is your last name?</strong><div class="translation">¿Cuál es tu apellido?</div></div></div>
+<div class="box" data-speak="How do you spell your name?"><div class="box-content"><strong>How do you spell your name?</strong><div class="translation">¿Cómo deletreas tu nombre?</div></div></div>
+<div class="box" data-speak="How old are you?"><div class="box-content"><strong>How old are you?</strong><div class="translation">¿Cuántos años tienes?</div></div></div>
+<div class="box" data-speak="Where are you from?"><div class="box-content"><strong>Where are you from?</strong><div class="translation">¿De dónde eres?</div></div></div>
+<div class="box" data-speak="Where do you live?"><div class="box-content"><strong>Where do you live?</strong><div class="translation">¿Dónde vives?</div></div></div>
+<div class="box" data-speak="What is your phone number?"><div class="box-content"><strong>What is your phone number?</strong><div class="translation">¿Cuál es tu teléfono?</div></div></div>
+<div class="box" data-speak="What is your email address?"><div class="box-content"><strong>What is your email address?</strong><div class="translation">¿Cuál es tu email?</div></div></div>
+<div class="box" data-speak="What do you do?"><div class="box-content"><strong>What do you do?</strong><div class="translation">¿A qué te dedicas?</div></div></div>
+<div class="box" data-speak="Are you a student?"><div class="box-content"><strong>Are you a student?</strong><div class="translation">¿Eres estudiante?</div></div></div></div></section>
+<section class="card"><span class="pill">Ejemplos</span><h2>Oraciones frecuentes</h2><div class="example" data-speak="My name is Ana."><strong>My name is Ana.</strong></div>
+<div class="example" data-speak="I am twenty years old."><strong>I am twenty years old.</strong></div>
+<div class="example" data-speak="I am from Chile."><strong>I am from Chile.</strong></div>
+<div class="example" data-speak="I live in Santiago."><strong>I live in Santiago.</strong></div>
+<div class="example" data-speak="My phone number is nine eight seven six five four three two one."><strong>My phone number is nine eight seven six five four three two one.</strong></div>
+<div class="example" data-speak="I am a student."><strong>I am a student.</strong></div></section>
+<section class="card"><span class="pill">Ejercicios</span><h2>Practica antes del quiz</h2><details><summary>Responde What is your name?</summary><p data-speak="My name is Marcos."><strong>Respuesta:</strong> My name is Marcos.</p></details>
+<details><summary>Responde Where are you from?</summary><p data-speak="I am from Chile."><strong>Respuesta:</strong> I am from Chile.</p></details>
+<details><summary>Responde How old are you?</summary><p data-speak="I am thirty years old."><strong>Respuesta:</strong> I am thirty years old.</p></details>
+<details><summary>Pregunta por teléfono</summary><p data-speak="What is your phone number?"><strong>Respuesta:</strong> What is your phone number?</p></details>
+<details><summary>Pregunta por email</summary><p data-speak="What is your email address?"><strong>Respuesta:</strong> What is your email address?</p></details><p class="small">Toca cada ejercicio para ver y escuchar la respuesta.</p></section>
+<section class="card"><span class="pill">Quiz</span><h2>Quiz de 5 preguntas</h2><form>
+<div class="quiz-question"><h3>1. “What is your name?” significa:</h3>
+<label data-speak="¿Dónde vives?"><input name="q1" type="radio" value="a"> ¿Dónde vives?</label>
+<label data-speak="¿Cuál es tu nombre?"><input name="q1" type="radio" value="b"> ¿Cuál es tu nombre?</label>
+<label data-speak="¿Cuál es tu teléfono?"><input name="q1" type="radio" value="c"> ¿Cuál es tu teléfono?</label>
+</div>
+<div class="quiz-question"><h3>2. Escucha y elige:</h3>
+<button class="big-audio" type="button" onclick="speak('How old are you?')">🔊 Escuchar</button>
+<label data-speak="¿Cuántos años tienes?"><input name="q2" type="radio" value="a"> ¿Cuántos años tienes?</label>
+<label data-speak="¿De dónde eres?"><input name="q2" type="radio" value="b"> ¿De dónde eres?</label>
+<label data-speak="¿Cuál es tu apellido?"><input name="q2" type="radio" value="c"> ¿Cuál es tu apellido?</label>
+</div>
+<div class="quiz-question"><h3>3. Respuesta correcta para “Where are you from?”</h3>
+<label data-speak="My name is Ana."><input name="q3" type="radio" value="a"> My name is Ana.</label>
+<label data-speak="I am twenty years old."><input name="q3" type="radio" value="b"> I am twenty years old.</label>
+<label data-speak="I am from Chile."><input name="q3" type="radio" value="c"> I am from Chile.</label>
+</div>
+<div class="quiz-question"><h3>4. ¿Cómo preguntas por email?</h3>
+<label data-speak="What is your phone number?"><input name="q4" type="radio" value="a"> What is your phone number?</label>
+<label data-speak="What is your email address?"><input name="q4" type="radio" value="b"> What is your email address?</label>
+<label data-speak="Where do you live?"><input name="q4" type="radio" value="c"> Where do you live?</label>
+</div>
+<div class="quiz-question"><h3>5. Escucha el spelling:</h3>
+<button class="big-audio" type="button" onclick="speakSpelling('LUIS')">🔊 Escuchar</button>
+<label data-speak="Luis"><input name="q5" type="radio" value="a"> Luis</label>
+<label data-speak="Lisa"><input name="q5" type="radio" value="b"> Lisa</label>
+<label data-speak="Lucas"><input name="q5" type="radio" value="c"> Lucas</label>
+</div>
+<button class="primary" type="button" onclick="checkQuiz(ANSWERS)">Revisar respuestas</button><div id="result" class="result"></div></form></section>
+</main><footer>Repaso móvil - Inglés básico</footer><script src="assets/app.js"></script><script>const ANSWERS={"q1": "b", "q2": "a", "q3": "c", "q4": "b", "q5": "a"};</script></body></html>

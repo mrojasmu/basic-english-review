@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Demonstrative Pronouns</title><link rel="stylesheet" href="assets/style.css"></head><body><header><h1>Demonstrative Pronouns</h1><p>Tema 3 - Inglés básico</p></header><main><div class="nav"><a href="index.html">← Inicio</a></div><section class="card"><span class="pill">Audio</span><h2>Cómo usar esta app</h2><p>Toca 🔊 para escuchar. En celular, primero toca “Activar audio”.</p><button class="big-audio" onclick="activateAudio()">🔊 Activar audio</button></section>
+<section class="card"><span class="pill">Materia</span><h2>Demonstrative Pronouns</h2><div class="grid"><div class="box" data-speak="This is a book."><div class="box-content"><strong>This is a book.</strong><div class="translation">Este es un libro. Singular cerca.</div></div></div>
+<div class="box" data-speak="That is a book."><div class="box-content"><strong>That is a book.</strong><div class="translation">Ese es un libro. Singular lejos.</div></div></div>
+<div class="box" data-speak="These are books."><div class="box-content"><strong>These are books.</strong><div class="translation">Estos son libros. Plural cerca.</div></div></div>
+<div class="box" data-speak="Those are books."><div class="box-content"><strong>Those are books.</strong><div class="translation">Esos son libros. Plural lejos.</div></div></div>
+<div class="box" data-speak="What is this?"><div class="box-content"><strong>What is this?</strong><div class="translation">¿Qué es esto?</div></div></div>
+<div class="box" data-speak="What are these?"><div class="box-content"><strong>What are these?</strong><div class="translation">¿Qué son estos?</div></div></div></div></section>
+<section class="card"><span class="pill">Ejemplos</span><h2>Oraciones frecuentes</h2><div class="example" data-speak="This is my phone."><strong>This is my phone.</strong></div>
+<div class="example" data-speak="That is my bag."><strong>That is my bag.</strong></div>
+<div class="example" data-speak="These are my books."><strong>These are my books.</strong></div>
+<div class="example" data-speak="Those are my keys."><strong>Those are my keys.</strong></div>
+<div class="example" data-speak="Are those your pencils?"><strong>Are those your pencils?</strong></div></section>
+<section class="card"><span class="pill">Ejercicios</span><h2>Practica antes del quiz</h2><details><summary>Un lápiz cerca</summary><p data-speak="This is a pencil."><strong>Respuesta:</strong> This is a pencil.</p></details>
+<details><summary>Libros cerca</summary><p data-speak="These are books."><strong>Respuesta:</strong> These are books.</p></details>
+<details><summary>Mochila lejos</summary><p data-speak="That is a bag."><strong>Respuesta:</strong> That is a bag.</p></details>
+<details><summary>Llaves lejos</summary><p data-speak="Those are keys."><strong>Respuesta:</strong> Those are keys.</p></details>
+<details><summary>¿Qué es esto?</summary><p data-speak="What is this?"><strong>Respuesta:</strong> What is this?</p></details><p class="small">Toca cada ejercicio para ver y escuchar la respuesta.</p></section>
+<section class="card"><span class="pill">Quiz</span><h2>Quiz de 5 preguntas</h2><form>
+<div class="quiz-question"><h3>1. Singular cerca:</h3>
+<label data-speak="this"><input name="q1" type="radio" value="a"> this</label>
+<label data-speak="those"><input name="q1" type="radio" value="b"> those</label>
+<label data-speak="these"><input name="q1" type="radio" value="c"> these</label>
+</div>
+<div class="quiz-question"><h3>2. Plural lejos:</h3>
+<label data-speak="that"><input name="q2" type="radio" value="a"> that</label>
+<label data-speak="those"><input name="q2" type="radio" value="b"> those</label>
+<label data-speak="this"><input name="q2" type="radio" value="c"> this</label>
+</div>
+<div class="quiz-question"><h3>3. Oración correcta:</h3>
+<label data-speak="These are books."><input name="q3" type="radio" value="a"> These are books.</label>
+<label data-speak="These is books."><input name="q3" type="radio" value="b"> These is books.</label>
+<label data-speak="This are books."><input name="q3" type="radio" value="c"> This are books.</label>
+</div>
+<div class="quiz-question"><h3>4. Escucha:</h3>
+<button class="big-audio" type="button" onclick="speak('That is my bag.')">🔊 Escuchar</button>
+<label data-speak="This is my bag."><input name="q4" type="radio" value="a"> This is my bag.</label>
+<label data-speak="That is my bag."><input name="q4" type="radio" value="b"> That is my bag.</label>
+<label data-speak="These are my bags."><input name="q4" type="radio" value="c"> These are my bags.</label>
+</div>
+<div class="quiz-question"><h3>5. “What are these?”</h3>
+<label data-speak="¿Qué es esto?"><input name="q5" type="radio" value="a"> ¿Qué es esto?</label>
+<label data-speak="¿Qué son estos?"><input name="q5" type="radio" value="b"> ¿Qué son estos?</label>
+<label data-speak="¿Dónde están?"><input name="q5" type="radio" value="c"> ¿Dónde están?</label>
+</div>
+<button class="primary" type="button" onclick="checkQuiz(ANSWERS)">Revisar respuestas</button><div id="result" class="result"></div></form></section>
+</main><footer>Repaso móvil - Inglés básico</footer><script src="assets/app.js"></script><script>const ANSWERS={"q1": "a", "q2": "b", "q3": "a", "q4": "b", "q5": "b"};</script></body></html>

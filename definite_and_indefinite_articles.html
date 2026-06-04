@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Definite and Indefinite Articles</title><link rel="stylesheet" href="assets/style.css"></head><body><header><h1>Definite and Indefinite Articles</h1><p>Tema 4 - Inglés básico</p></header><main><div class="nav"><a href="index.html">← Inicio</a></div><section class="card"><span class="pill">Audio</span><h2>Cómo usar esta app</h2><p>Toca 🔊 para escuchar. En celular, primero toca “Activar audio”.</p><button class="big-audio" onclick="activateAudio()">🔊 Activar audio</button></section>
+<section class="card"><span class="pill">Materia</span><h2>Definite and Indefinite Articles</h2><div class="grid"><div class="box" data-speak="a book"><div class="box-content"><strong>a book</strong><div class="translation">un libro: sonido consonante</div></div></div>
+<div class="box" data-speak="an apple"><div class="box-content"><strong>an apple</strong><div class="translation">una manzana: sonido vocal</div></div></div>
+<div class="box" data-speak="the book"><div class="box-content"><strong>the book</strong><div class="translation">el libro: algo específico</div></div></div>
+<div class="box" data-speak="a student"><div class="box-content"><strong>a student</strong><div class="translation">un estudiante</div></div></div>
+<div class="box" data-speak="an email"><div class="box-content"><strong>an email</strong><div class="translation">un correo</div></div></div>
+<div class="box" data-speak="the teacher"><div class="box-content"><strong>the teacher</strong><div class="translation">el/la profesor(a) específico(a)</div></div></div></div></section>
+<section class="card"><span class="pill">Ejemplos</span><h2>Oraciones frecuentes</h2><div class="example" data-speak="I have a book."><strong>I have a book.</strong></div>
+<div class="example" data-speak="She has an orange."><strong>She has an orange.</strong></div>
+<div class="example" data-speak="The book is on the table."><strong>The book is on the table.</strong></div>
+<div class="example" data-speak="This is a pen."><strong>This is a pen.</strong></div>
+<div class="example" data-speak="It is an umbrella."><strong>It is an umbrella.</strong></div></section>
+<section class="card"><span class="pill">Ejercicios</span><h2>Practica antes del quiz</h2><details><summary>___ apple</summary><p data-speak="an apple"><strong>Respuesta:</strong> an apple</p></details>
+<details><summary>___ book</summary><p data-speak="a book"><strong>Respuesta:</strong> a book</p></details>
+<details><summary>algo específico</summary><p data-speak="the book"><strong>Respuesta:</strong> the book</p></details>
+<details><summary>un paraguas</summary><p data-speak="an umbrella"><strong>Respuesta:</strong> an umbrella</p></details>
+<details><summary>el profesor</summary><p data-speak="the teacher"><strong>Respuesta:</strong> the teacher</p></details><p class="small">Toca cada ejercicio para ver y escuchar la respuesta.</p></section>
+<section class="card"><span class="pill">Quiz</span><h2>Quiz de 5 preguntas</h2><form>
+<div class="quiz-question"><h3>1. ___ apple</h3>
+<label data-speak="a"><input name="q1" type="radio" value="a"> a</label>
+<label data-speak="an"><input name="q1" type="radio" value="b"> an</label>
+<label data-speak="are"><input name="q1" type="radio" value="c"> are</label>
+</div>
+<div class="quiz-question"><h3>2. ___ book</h3>
+<label data-speak="a"><input name="q2" type="radio" value="a"> a</label>
+<label data-speak="an"><input name="q2" type="radio" value="b"> an</label>
+<label data-speak="am"><input name="q2" type="radio" value="c"> am</label>
+</div>
+<div class="quiz-question"><h3>3. Algo específico usa:</h3>
+<label data-speak="a"><input name="q3" type="radio" value="a"> a</label>
+<label data-speak="an"><input name="q3" type="radio" value="b"> an</label>
+<label data-speak="the"><input name="q3" type="radio" value="c"> the</label>
+</div>
+<div class="quiz-question"><h3>4. Oración correcta:</h3>
+<label data-speak="It is an umbrella."><input name="q4" type="radio" value="a"> It is an umbrella.</label>
+<label data-speak="It is a umbrella."><input name="q4" type="radio" value="b"> It is a umbrella.</label>
+<label data-speak="It are an umbrella."><input name="q4" type="radio" value="c"> It are an umbrella.</label>
+</div>
+<div class="quiz-question"><h3>5. “The teacher” significa:</h3>
+<label data-speak="un profesor"><input name="q5" type="radio" value="a"> un profesor</label>
+<label data-speak="el profesor"><input name="q5" type="radio" value="b"> el profesor</label>
+<label data-speak="profesores"><input name="q5" type="radio" value="c"> profesores</label>
+</div>
+<button class="primary" type="button" onclick="checkQuiz(ANSWERS)">Revisar respuestas</button><div id="result" class="result"></div></form></section>
+</main><footer>Repaso móvil - Inglés básico</footer><script src="assets/app.js"></script><script>const ANSWERS={"q1": "b", "q2": "a", "q3": "c", "q4": "a", "q5": "b"};</script></body></html>
